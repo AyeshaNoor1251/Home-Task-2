@@ -9,8 +9,8 @@ namespace Home_Task_2
     internal class Program
     {
         static void integer(){
-            string a=1;
-            string b=2;
+            string a="1";
+            string b="2";
             Console.WriteLine(a,b);}
         static void swapsigns(int a, int b)
         {
