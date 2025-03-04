@@ -8,6 +8,10 @@ namespace Home_Task_2
 {
     internal class Program
     {
+        static void integer(){
+            int a=1;
+            int b=2;
+            Console.WriteLine(a,b);}
         static void swapsigns(int a, int b)
         {
             Console.WriteLine("Before Swapping a= " + a + " b= " + b);
@@ -77,6 +81,7 @@ namespace Home_Task_2
         }
         static void Main(string[] args)
         {
+            integer();
             bool exit=true;
             while (exit)
             {
